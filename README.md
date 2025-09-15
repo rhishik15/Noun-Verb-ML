@@ -1,1 +1,31 @@
 # Noun-Verb-ML
+noun_verb_role_project/
+├── src/
+│   ├── __init__.py
+│   ├── tokenizer.py          # BPE tokenizer implementation
+│   ├── transformer.py        # Transformer components
+│   ├── model.py              # Complete model architecture
+│   ├── dataset.py            # Dataset and data loading
+│   └── utils.py              # Utility functions
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── sample_dataset.jsonl
+├── models/
+│   ├── checkpoints/
+│   └── tokenizers/
+├── scripts/
+│   ├── train.py
+│   ├── evaluate.py
+│   └── preprocess_data.py
+├── tests/
+│   ├── test_tokenizer.py
+│   ├── test_model.py
+│   └── test_dataset.py
+├── notebooks/
+│   └── exploration.ipynb
+├── configs/
+│   └── model_config.yaml
+├── requirements.txt
+├── README.md
+└── setup.py
